@@ -8,16 +8,25 @@ Solution:
 This project proposes using Generative Adversarial Networks (GANs) to generate realistic satellite images. GANs consist of two neural networks, a generator and a discriminator, which are trained adversarially. The generator creates synthetic satellite images, and the discriminator distinguishes between real and generated images. Through this adversarial training process, the generator learns to produce images that are increasingly indistinguishable from real satellite images.
 
 How It Works:
+
 Data Collection and Preprocessing: Satellite image datasets are collected and preprocessed to ensure they are suitable for training the GAN model.
+
 GAN Architecture Design: A GAN architecture tailored to satellite image characteristics, such as resolution and spectral bands, is designed.
+
 Training: The GAN model is trained on the preprocessed dataset. The generator learns to produce realistic images, while the discriminator learns to differentiate between real and generated images.
+
 Evaluation: The quality of the generated images is evaluated using metrics such as Structural Similarity Index (SSI) and Inception Score (IS).
+
 Application: The generated satellite images can be used in various applications, such as land cover classification, urban planning, and environmental monitoring.
 
 Impact:
+
 Cost-Effective Data Augmentation: Synthetic image generation reduces the need for expensive and limited real datasets, making it cost-effective to augment training datasets for machine learning models.
+
 Improved Model Performance: Larger and more diverse datasets through synthetic image generation can lead to improved performance of machine learning models trained on satellite imagery, enhancing their accuracy and generalization ability.
+
 Facilitating Research and Applications: The generated satellite images facilitate research and applications in remote sensing by providing access to diverse and realistic datasets.
+
 Time Savings: Synthetic image generation reduces the time and effort required to collect and label large-scale satellite image datasets, accelerating research and development in remote sensing applications.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
