@@ -28,6 +28,7 @@ Below is a detailed description of the coding work done to achieve these objecti
 
 a) Data Collection:
 Gathered a diverse dataset of satellite images from various sources to train the GAN.
+
 b) Image Preprocessing:
 Standardized the images by resizing them to a consistent size.
 Normalized the pixel values to the range [-1, 1] to improve training stability.
@@ -37,6 +38,7 @@ Normalized the pixel values to the range [-1, 1] to improve training stability.
 a) Generator:
 Designed to create synthetic satellite images from random noise.
 Built using convolutional and upsampling layers to generate high-resolution images.
+
 b) Discriminator:
 Designed to distinguish between real and synthetic images.
 Built using convolutional layers to extract features and classify the images.
@@ -44,6 +46,7 @@ Built using convolutional layers to extract features and classify the images.
 3. Training the GAN
 
 a) Compiling Models: Compiled the generator and discriminator using the Adam optimizer.
+
 b) Adversarial Training: Trained the GAN by alternating between training the generator and the discriminator.
 
 4. Image Generation
@@ -55,6 +58,7 @@ Adjusted the input noise vector to generate images with specific characteristics
 5. Evaluation and Validation
 
 a) Qualitative Evaluation: Visually inspected the generated images to assess realism and quality.
+
 b) Quantitative Evaluation: Used metrics such as Inception Score (IS) and Fréchet Inception Distance (FID) to quantitatively evaluate the performance of the GAN.
 
 This coding work provides a comprehensive approach to generating high-quality satellite images using GANs, offering a valuable tool for various applications and addressing the challenges of traditional satellite imagery acquisition. The implementation includes data preprocessing, GAN architecture design, model training, and image generation, with robust evaluation methods to ensure the quality and realism of the generated images.
